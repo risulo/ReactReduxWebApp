@@ -12,12 +12,13 @@ namespace ReactReduxWebApp
 {
     public class Program
     {
-		//Test1
+		//Test1 #1
         public static void Main(string[] args)
         {
             BuildWebHost(args).Run();
         }
 
+		//Test1 #2
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
