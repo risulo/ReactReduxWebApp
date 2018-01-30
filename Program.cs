@@ -12,6 +12,7 @@ namespace ReactReduxWebApp
 {
     public class Program
     {
+		//Test1
         public static void Main(string[] args)
         {
             BuildWebHost(args).Run();
