@@ -11,7 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 namespace ReactReduxWebApp
 {
     public class Startup
-    {
+    {	//Test3
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
